@@ -1,11 +1,13 @@
 *
 {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;                                 
 }
 body
 {
     overflow-x: hidden;
-    background-color: #000000;
+    background-color: #cccccc;
 }
 .header
 {
@@ -61,6 +63,10 @@ body
 {
     background-color: #400000;
 }
+#grande
+{
+    padding-top: 10px;
+}
 .bandeiras
 {
     display: flex;
@@ -77,17 +83,59 @@ body
     border-radius: 25px;
     margin-left: 5px;
 }
-section
-{
-    background-color: #ffffff;
-}
-
 .corpo--home .foto img
 {
     width: 1000px;
 }
 
-.corpo--certificacoes a img
+
+.corpo--portfolio
 {
-    width: 150px;
+    display: none;
+}
+
+
+.corpo--certificacoes h1
+{
+    font-size: 30px;
+}
+.certificado
+{
+    display: flex;
+    padding: 25px;
+}
+.certificado div
+{
+    margin: 15px;
+    margin-left: 35px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.certificado a
+{
+    
+}
+.certificado a img
+{
+    width: 250px;
+}
+.certificado #certificado--java a img
+{
+    width: 250px;
+    height: 155.97px;
+}
+
+#certificado--js a p
+{
+padding-left: 45px;
+}
+#certificado--front a p
+{
+padding-left: 30px;
+}
+#certificado--java a p
+{
+padding-left: 75px;
 }
