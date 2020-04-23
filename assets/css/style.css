@@ -12,7 +12,7 @@ body
 .header
 {
     display: flex;
-    height: 100px;
+    height: 70px;
     background-color: #000000;
 }
 .logo
@@ -22,7 +22,9 @@ body
     align-items: center;
     justify-content: center;
     font-weight: bolder;
-    padding: 25px;
+    margin-right: 95px;
+    padding-top: 10px;
+    padding-left: 15px;
 }
 .menu
 {
@@ -30,6 +32,7 @@ body
     display: flex;
     justify-content: space-between;
     padding-top: 10px ;
+    bottom: 0;
 }
 .menu ul, li
 {
@@ -52,7 +55,7 @@ body
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
-    height: 60px;
+    height: 40px;
     padding: 20px 50px;
     margin: 15px 30px;
     padding-bottom: 40px;
@@ -83,15 +86,34 @@ body
     border-radius: 25px;
     margin-left: 5px;
 }
+
+.corpo--home
+{
+    margin: 15px;
+    background-color: #f4f4f6;
+    box-shadow: #000000 4px 4px 8px;
+}
+.corpo--home .container
+{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    width: 40vw;
+    margin-left: 30%;
+}
 .corpo--home .foto img
 {
-    width: 1000px;
+    width: 350px;
 }
-
+.corpo--home .resumo h1
+{
+    font-size: 40px;
+}
 
 .corpo--portfolio
 {
-    display: none;
+
 }
 
 
@@ -115,7 +137,7 @@ body
 }
 .certificado a
 {
-    
+    text-decoration: none;
 }
 .certificado a img
 {
