@@ -109,11 +109,12 @@ body
 .corpo--home .resumo h1
 {
     font-size: 40px;
+    font-weight: bolder;
 }
 
 .corpo--portfolio
 {
-
+    background-color: #f4f4f6;
 }
 
 
