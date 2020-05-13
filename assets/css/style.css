@@ -197,8 +197,14 @@ padding-left: 75px;
     height: 300px;
     margin: 15px;
 }
-.faleconosco #email
+.faleconosco #email, #tipoContato
 {
     width: 169px;
-    height: 15px;
+    height: 18px;
+    margin: 15px;
+}
+.faleconosco button
+{
+    width: 150px;
+    margin-left: 15px;
 }
