@@ -14,6 +14,7 @@ body
     display: flex;
     height: 70px;
     background-color: #000000;
+    justify-content: space-around;
 }
 .logo
 {
@@ -72,6 +73,7 @@ body
 }
 .bandeiras
 {
+
     display: flex;
     align-content: center;
     align-items: center;
@@ -92,6 +94,7 @@ body
     margin: 15px;
     background-color: #f4f4f6;
     box-shadow: #000000 4px 4px 8px;
+    padding: 10px;
 }
 .corpo--home .container
 {
@@ -112,15 +115,29 @@ body
     font-weight: bolder;
 }
 
+.corpo--home .servicos p
+{
+    font-size: 20px;
+}
+.titulo
+{
+    font-size: 45px;
+    font-weight: bolder;
+    margin: 15px;
+}
 .corpo--portfolio
 {
+    margin: 15px;
     background-color: #f4f4f6;
+    box-shadow: #000000 4px 4px 8px;
+    padding: 10px;
 }
-
-
-.corpo--certificacoes h1
+.corpo--certificacoes
 {
-    font-size: 30px;
+    margin: 15px;
+    background-color: #f4f4f6;
+    box-shadow: #000000 4px 4px 8px;
+    padding: 10px;
 }
 .certificado
 {
@@ -161,4 +178,27 @@ padding-left: 30px;
 #certificado--java a p
 {
 padding-left: 75px;
+}
+.corpo--sobre
+{
+    margin: 15px;
+    background-color: #f4f4f6;
+    box-shadow: #000000 4px 4px 8px;
+    padding: 10px;
+}
+.faleconosco form
+{
+    display: flex;
+    flex-direction: column;
+}
+.faleconosco #descricao
+{
+    width: 507px;
+    height: 300px;
+    margin: 15px;
+}
+.faleconosco #email
+{
+    width: 169px;
+    height: 15px;
 }

@@ -10,15 +10,16 @@
         <header>
             <div class="header">
                 <div class="logo">LHS Solutions</div>
-
-                <div class="menu">
-                    <ul>
-                        <li class="active">Home</li>
-                        <li id="grande">Portfolio e Experiencias</li>
-                        <li>Certificacoes</li>
-                        <li>Sobre</li>
-                    </ul>
-                </div>
+                <nav>
+                    <div class="menu">
+                        <ul>
+                            <li class="active">Home</li>
+                            <li id="grande">Portfolio e Experiencias</li>
+                            <li>Certificacoes</li>
+                            <li>Sobre</li>
+                        </ul>
+                    </div>
+                </nav>
                 <div class="bandeiras">
                     <div><a href=""><img src="assets/images/bandeira-do-brasil.png" ></a></div>
                     <div><a href=""><img src="assets/images/US_flag_large_51_stars.png" ></a></div>
@@ -39,15 +40,19 @@
             </div>
 
             <div class="servicos">
-                <h1>Servicos prestados</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at leo sed purus faucibus pulvinar vitae a nibh. Phasellus in consequat ipsum. Phasellus tristique iaculis velit ut hendrerit. Donec et orci non augue pretium rutrum. Vestibulum sagittis tincidunt lacus sit amet vehicula. In quis ligula tellus. Nam id hendrerit felis. Sed in sollicitudin augue. Quisque in ornare dui. Donec consequat leo nec ligula fermentum, eget fringilla tortor tempor.
-
-                    Integer consectetur erat eget egestas luctus. Integer lobortis nulla a turpis lacinia maximus. Duis sed tortor vestibulum, sollicitudin est sit amet, dictum justo. In neque diam, accumsan nec nisi ac, dignissim tincidunt orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec suscipit egestas mi et aliquam. Donec ac suscipit metus. Duis mattis libero eu metus tristique, convallis sollicitudin nibh sagittis. Cras iaculis, ipsum at iaculis ullamcorper, magna tellus tincidunt tellus, a imperdiet mi magna eget nisl. Vivamus euismod, neque id scelerisque convallis, est nibh aliquam purus, eu imperdiet magna mi quis turpis. Donec lorem lorem, sagittis non semper interdum, vehicula vel neque.</p>
+                <h1 class="titulo">Nossos servicos</h1>
+                <p>Dentro de nosso portfolio de servicos contamos com:</p>
+                <ul>
+                    <li>-Desenvolvimento de sites.</li>
+                    <li>-Criacao de design responsivo.</li>
+                    <li>-Suporte a codigos.</li>
+                    <li>-Transformacao de imagens em sites.</li>
+                </ul>
             </div>
         </section>
 
         <section class="corpo--portfolio">
-             <h1>Experiencias</h1>
+             <h1 class="titulo">Portfolio</h1>
             <div class="portfolio">
                 <div>
                     <h3>Em construcao</h3>
@@ -56,7 +61,7 @@
         </section>
 
         <section class="corpo--certificacoes">
-            <h1>Certificados Recebidos</h1>
+            <h1 class="titulo">Certificados Recebidos</h1>
             <div class="certificado">
                 <div id="certificado--js">
                     <a href="https://alunos.b7web.com.br/media/certificates/certificado_7609799.jpg" target="blank">
@@ -78,6 +83,27 @@
                 </div>
             </div>
         </section>
+
+        <section class="corpo--sobre">
+           <h1 class="titulo">Fale Conosco</h1>
+            <div class="faleconosco">
+                <form>
+                    <textarea name="informe" cols="70" rows="20" id="descricao"></textarea>
+                    <input type="email" name="email" id="email">
+                    <select name="tipodecontato" id="tipoContato">
+                        <option value="1">Solicitacao de Servicos</option>
+                        <option value="2">Elogios</option>
+                        <option value="3">Sugestoes</option>
+                        <option value="4">Suporte</option>
+                        <option value="5">Reclamacoes</option>
+                    </select>
+                    <button>Enviar</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+
+        </footer>
         <script src="assets/javascript/script.js"></script>
     </body>
 </html>
